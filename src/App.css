@@ -1,0 +1,78 @@
+.app {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+}
+.card-item {
+  min-width: 480px;
+  height: auto;
+  border: 1px solid;
+  box-shadow: 5px 5px 10px grey;
+  background-color: rgb(240, 137, 137);
+  font-size: 16px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.card-item h2 {
+  color: white;
+}
+.card-contnet {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.card-contnet input {
+  width: 45%;
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.card-contnet button {
+  width: 20%;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: rgb(148, 33, 230);
+  color: white;
+}
+.card-contnet select {
+  width: 15%;
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 26px 5px 15px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  object-fit: cover;
+  position: relative;
+  align-items: center;
+}
+.card-input {
+  display: flex;
+  gap: 10px;
+}
+.remove-btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 15px;
+  color: white;
+}
